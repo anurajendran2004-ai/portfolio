@@ -99,7 +99,33 @@
       transform: translateY(-10px) scale(1.02);
       box-shadow: 0 10px 30px rgba(0,0,0,0.6);
     }
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
 
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 6px 12px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.buttons a:hover {
+  opacity: 0.8;
+}
+#education .card {
+  border-left: 4px solid #38bdf8;
+}
     footer {
       text-align: center;
       padding: 20px;
@@ -118,18 +144,22 @@
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
 
 <header>
   <!-- ADD YOUR PHOTO BELOW -->
-  <img src="C:\Users\ANUPRIYA\Desktop\New folder\Anu Photo1.jpeg">
+  <img src="Anu Photo1.jpeg">
   <h1>Hi, I'm Baby Anupriya 👩‍💻</h1>
   <p>Aspiring Software Developer</p>
 
   <!-- ADD YOUR GITHUB LINK BELOW -->
   <a href="https://github.com/yourusername" class="btn" target="_blank">GitHub</a>
+  <br>
+  <!-- RESUME DOWNLOAD BUTTON -->
+  <a href="BabyAnupriyaRajendran.pdf" class="btn" download style="margin-top:10px;">Download Resume</a>
 </header>
 
 <section id="about">
@@ -154,17 +184,70 @@
 <section id="projects">
   <h2>Projects</h2>
   <div class="grid">
+
     <div class="card">
-      <h3>Crime Against Women</h3>
-      <p>Data analysis project with visualization and ML insights.</p>
+      <h3>Crime Against Women – Data Analysis & Prediction</h3>
+<br>
+      <p>
+        Analyzed crime data related to women to identify patterns and trends.
+        Used data visualization and machine learning techniques to generate insights
+        and support predictive analysis.
+      </p>
+<br>
+      <p><strong>Tools:</strong> Python, Pandas, NumPy, Matplotlib, ML</p>
+<br>
+      <img src="crime .jpg">
     </div>
+
     <div class="card">
-      <h3>Local Worker Finder</h3>
-      <p>Web application built using PHP & MySQL.</p>
+      <h3>Local Worker Finder Web Application</h3>
+<br>
+      <p>
+        Developed a web application to help users find local workers for various services.
+        Includes search functionality and database integration for managing worker details.
+      </p>
+<br>
+      <p><strong>Tools:</strong> PHP, MySQL, HTML, CSS</p>
+<br>
+      <img src="Worker finder.jpg">
+
     </div>
+
   </div>
 </section>
+<section id="education">
+  <h2>Education</h2>
 
+  <div class="grid">
+
+    <div class="card">
+      <h3>MCA (Master of Computer Applications)</h3>
+<br>
+      <p><strong>College:</strong> Sri Meenakshi Govt. Arts College for Women(A), Madurai</p>
+      <p><strong>Year:</strong> 2024 – 2026</p>
+      <p><strong>Percentage:</strong> 81%</p>
+      <p><strong>Specialization:</strong> Computer Applications</p>
+    </div>
+
+    <div class="card">
+      <h3>BCA (Bachelor of Computer Applications)</h3>
+<br>
+      <p><strong>College:</strong> Park's College(A), Tirupur</p>
+      <p><strong>Year:</strong> 2021 – 2024</p>
+      <p><strong>Percentage:</strong> 86%</p>
+      <p><strong>Specialization:</strong> Computer Applications</p>
+    </div>
+
+    <div class="card">
+      <h3>Higher Secondary (12th)</h3>
+<br>
+      <p><strong>School:</strong> Park Matriculation Higher Secondary School, Tirupur</p>
+      <p><strong>Year:</strong> 2021</p>
+      <p><strong>Percentage:</strong> 83%</p>
+    </div>
+
+  </div>
+</section>
 <section id="contact">
   <h2>Contact</h2>
   <div class="card">
@@ -175,7 +258,7 @@
 </section>
 
 <footer>
-  <p>© 2026 Baby Anupriya | Designed with ❤️</p>
+  <p>© 2026 Baby Anupriya | Crafted with Faith, Passion & Code</p>
 </footer>
 
 </body>
